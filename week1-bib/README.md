@@ -7,4 +7,4 @@ is a plain text file which contains bibliographic references.
 - [csv](TDH-refs.csv)
 - [Gsheet](https://docs.google.com/spreadsheets/d/19kXUixK6FMBXnPzDj9fpgMQAnMqFgmtBQqcAMnkhQj4/edit?usp=sharing)
 - [page web](https://tdhock.github.io/blog/2024/auto-pubs-page/)
-- [tex](TDH-refs.tex), [tex](TDH-refs.pdf)
+- [tex](TDH-refs.tex), [pdf](TDH-refs.pdf)
