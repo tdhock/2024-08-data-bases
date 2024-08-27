@@ -1,9 +1,3 @@
-# slido
-
-https://app.sli.do/event/o6P1wRF38RxpxQh52awSwZ
-
-# bib
-
 bib est un fichier qui contient des références bibliographiques / bib
 is a plain text file which contains bibliographic references.
 
