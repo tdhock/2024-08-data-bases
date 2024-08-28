@@ -6,7 +6,8 @@ https://app.sli.do/event/o6P1wRF38RxpxQh52awSwZ
 
 Diapos introduction par Nadia Tahiri.
 
-[PostgreSQL à l'UdeS](https://www.usherbrooke.ca/informatique/etudiants-actuels/logiciels-services-outils/postgresql).
+[PostgreSQL à l'UdeS](https://www.usherbrooke.ca/informatique/etudiants-actuels/logiciels-services-outils/postgresql) dit qu'on utilise serveur bd-info1.dinf.usherbrooke.ca 
+* ça marche pour moi mais pas avec mot de passe UdeS, il fallait un autre créé specifiquement pour ça.
 
 [bibtex](week1-bib)
 
