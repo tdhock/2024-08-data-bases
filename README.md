@@ -1,10 +1,20 @@
+GitHub du cours : https://github.com/tdhock/2024-08-data-bases
+
+## FAQ
+
+Si vous avez une question qui n'est pas personelle, qui pourrait
+intéresser tout le monde du cours, SVP le posez sur Teams (et non
+courriel). Par exemple :
+
+* où peut-on télécharger les diapos ? 
+
 ## Semaine / Week 1
 
 [Plan de cours](https://plandecours.dinf.usherbrooke.ca/pdc/2024-3/IFT187/0/)
 
 https://app.sli.do/event/o6P1wRF38RxpxQh52awSwZ
 
-Diapos introduction par Nadia Tahiri.
+[Diapos introduction par Nadia Tahiri](week1-bib/IFT187_Tahiri_Cours_Introduction_aux_SGBD.pdf).
 
 [PostgreSQL à l'UdeS](https://www.usherbrooke.ca/informatique/etudiants-actuels/logiciels-services-outils/postgresql) dit qu'on utilise serveur bd-info1.dinf.usherbrooke.ca 
 * ça marche pour moi mais pas avec mot de passe UdeS, il fallait un autre créé specifiquement pour ça.
