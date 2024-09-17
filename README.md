@@ -4,6 +4,10 @@ Les diapos du cours sont disponible sur Teams / Slides are available on teams.
 
 TPs sont disponible sur Moodle / Homeworks available on moodle.
 
+Documentation pour PostgreSQL en
+[Français](https://docs.postgresql.fr/) / PostgreSQL docs in
+[English](https://www.postgresql.org/docs/)
+
 ## Semaine / Week 1
 
 [Plan de cours](https://plandecours.dinf.usherbrooke.ca/pdc/2024-3/IFT187/0/)
@@ -35,6 +39,43 @@ Diapos introduction par Nadia Tahiri.
 - Diapos conception et modélisation par Nadia Tahiri / database modeling slides by Nadia Tahiri.
 - labo : D4-1023, TP0 à remettre le 16 sept.
 
+## Semaine 4
+
+Diapos modélisation de Luc Lavoie / Christina Khnaisser :
+
+- [Entité-Attribut](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02a-Modelisation-EA_PRE.pdf)
+- [Traduction EA-UML](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02b-Modelisation-EA-trad-UML_PRE.pdf)
+- exemple cours universitaire : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02c-Modelisation-EA-ex-Cours_PRE.pdf
+- exemple sondage : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02e-Modelisation-EA-ex-Sondage_EMC.pdf
+- exemple biere : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/IFT187/IFT187_2022-1_QualiBroue_EPP.pdf
+- exemple armament : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD011-Gaspard-et-Madeleine_NDC.pdf
+
+### bibliothèque du village
+
+nous avons une petite bibliothèque à Waterville, qui prête jusqu'à 5
+livres à ses clients. 
+* livres sont prêtés pour 3 semaines, sauf si le livre est récent (1 semaine)
+* renouvellement possible 2 fois, uniquement si un autre utilisateur
+  n'a pas réservé
+* frais de 5 centimes par livre, par jour de rétard
+* possible de commander des livres d'autres bibliothèques
+* besoin de rappeller les clients, 3 jours avant, et chaque semaine
+  après, date de retour
+  
+### prise de rendez-vous
+
+nous voulons créer un système qui permet de gérer les rendez-vous pour
+obtenir un visa, aux consulats de France au Canada.
+- chaque rendez-vous prend environ 1 heure, pour un client, avec un agent
+- il y a 4 différentes sortes de visa : touriste, transit, étude, autre
+- il y a 4 bureaux : Toronto, Vancouver, Montréal, Ottawa. 
+- différents agents ont différents compétences : il y en a qui
+  s'occupent uniquement des visas de type touriste, d'autres qui
+  peuvent gérer n'importe quel sorte de visa.
+- les clients peuvent visionner les rendez-vous disponibles, et choisir
+- tous les jours, chaque bureau va imprimer une feuille avec les
+  rendez-vous anticipés
+  
 ## Post-it exercise: parc de stationnement
 
 on écrit 2 choses :
