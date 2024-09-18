@@ -50,7 +50,7 @@ Diapos modélisation de Luc Lavoie / Christina Khnaisser :
 - exemple biere : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/IFT187/IFT187_2022-1_QualiBroue_EPP.pdf
 - exemple armament : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD011-Gaspard-et-Madeleine_NDC.pdf
 - labo : [DrawSQL appli web](https://drawsql.app), pour convertir des dessins en SQL.
-- [Mocodo](https://www.mocodo.net/), pour convertir des codes MERISE en dessin.
+- [Mocodo](https://www.mocodo.net/), pour convertir des codes en dessin.
 
 ### bibliothèque du village
 
