@@ -49,6 +49,7 @@ Diapos modélisation de Luc Lavoie / Christina Khnaisser :
 - exemple sondage : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02e-Modelisation-EA-ex-Sondage_EMC.pdf
 - exemple biere : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/IFT187/IFT187_2022-1_QualiBroue_EPP.pdf
 - exemple armament : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD011-Gaspard-et-Madeleine_NDC.pdf
+- labo : [DrawSQL appli web](https://drawsql.app)
 
 ### bibliothèque du village
 
