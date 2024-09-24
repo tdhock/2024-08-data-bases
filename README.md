@@ -63,9 +63,10 @@ livres à ses clients.
 * livres sont prêtés pour 3 semaines, sauf si le livre est récent (1 semaine)
 * renouvellement possible 2 fois, uniquement si un autre utilisateur
   n'a pas réservé
-* frais de 5 centimes par livre, par jour de rétard
+* frais de 5 centimes par livre, par jour de retard
 * possible de commander des livres d'autres bibliothèques
-* besoin de rappeller les clients, 3 jours avant, et chaque semaine
+* possible d'emprunter des jeux de société, depôt de 20$, rendu au retour
+* besoin de rappeler les clients, 3 jours avant, et chaque semaine
   après, date de retour
   
 ### prise de rendez-vous
@@ -77,7 +78,7 @@ obtenir un visa, aux consulats de France au Canada.
 - il y a 4 bureaux : Toronto, Vancouver, Montréal, Ottawa. 
 - différents agents ont différents compétences : il y en a qui
   s'occupent uniquement des visas de type touriste, d'autres qui
-  peuvent gérer n'importe quel sorte de visa.
+  peuvent gérer n'importe quelle sorte de visa.
 - les clients peuvent visionner les rendez-vous disponibles, et choisir
 - tous les jours, chaque bureau va imprimer une feuille avec les
   rendez-vous anticipés
