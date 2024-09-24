@@ -50,11 +50,12 @@ plan : continuer les diapos, introduction à SQL.
 Diapos modélisation de Luc Lavoie / Christina Khnaisser :
 
 - [Entité-Attribut](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02a-Modelisation-EA_PRE.pdf)
-- [Traduction EA-UML](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02b-Modelisation-EA-trad-UML_PRE.pdf)
 - exemple cours universitaire : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02c-Modelisation-EA-ex-Cours_PRE.pdf
 - exemple sondage : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02e-Modelisation-EA-ex-Sondage_EMC.pdf
 - exemple biere : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/IFT187/IFT187_2022-1_QualiBroue_EPP.pdf
 - exemple armament : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD011-Gaspard-et-Madeleine_NDC.pdf
+- labo : [DrawSQL appli web](https://drawsql.app), pour convertir des dessins en SQL.
+- [Mocodo](https://www.mocodo.net/), pour convertir des codes en dessin.
 
 ### bibliothèque du village
 
@@ -82,6 +83,27 @@ obtenir un visa, aux consulats de France au Canada.
 - les clients peuvent visionner les rendez-vous disponibles, et choisir
 - tous les jours, chaque bureau va imprimer une feuille avec les
   rendez-vous anticipés
+  
+## semaine 5, 24-25 sept 2024
+
+Diapos de Christina Khnaisser et Luc Lavoie
+- [Traduction EA-UML](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02b-Modelisation-EA-trad-UML_PRE.pdf)
+- [Normalisation](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MLR_01a-Normalisation-int_PRE.pdf)
+- labo : mise à jour des equipes pour les TPs, modèle logique.
+
+## semaine 6, 1-2 oct 2024
+
+- suite normalisation.
+- labo : modèle logique.
+
+## semaine 7, 8-9 oct 2024
+
+- 8 oct : date limite TP1
+- labo 9 oct : correction TP1
+
+## semaine 8, 15-16 oct 2024
+
+- pas de cours.
   
 ## Post-it exercise: parc de stationnement
 
