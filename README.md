@@ -103,7 +103,11 @@ Diapos de Christina Khnaisser et Luc Lavoie
 
 ## semaine 8, 15-16 oct 2024
 
-- pas de cours.
+- examen intra, 15 oct, 8:30-11:20
+
+## semaine 9
+
+- relache
   
 ## Post-it exercise: parc de stationnement
 
