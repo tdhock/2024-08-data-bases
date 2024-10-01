@@ -99,6 +99,7 @@ Diapos de Christina Khnaisser et Luc Lavoie
 ### exemple : fournisseurs et articles
 
 | clé     |                     | clé       |            |              |              |            |
+|---------|---------------------|-----------|------------|--------------|--------------|------------|
 | noFourn | nomFourn            | noArticle | nomArticle | quantArticle | etatFourn    | lieuFourn  |
 |---------|---------------------|-----------|------------|--------------|--------------|------------|
 | F1      | Bureau De Luxe      | A1        | chaise     | 12           | expérimental | Montréal   |
