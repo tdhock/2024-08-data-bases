@@ -93,13 +93,55 @@ Diapos de Christina Khnaisser et Luc Lavoie
 
 ## semaine 6, 1-2 oct 2024
 
-- suite normalisation.
+- suite normalisation : 2FN, 3FN.
 - labo : modèle logique.
+
+### exemple : fournisseurs et articles
+
+| clé     |                     | clé       |            |              |              |            |
+| noFourn | nomFourn            | noArticle | nomArticle | quantArticle | etatFourn    | lieuFourn  |
+|---------|---------------------|-----------|------------|--------------|--------------|------------|
+| F1      | Bureau De Luxe      | A1        | chaise     | 12           | expérimental | Montréal   |
+| F1      | Bureau De Luxe      | A2        | Ecran 19"  | 10           | expérimental | Montréal   |
+| F1      | Bureau De Luxe      | A3        | imprimante | 5            | expérimental | Montréal   |
+| ...     |                     |           |            |              |              |            |
+| F2      | Produits Excellents | A1        | chaise     | 8            | fiable       | Sherbrooke |
+| F2      | Produits Excellents | A6        | Ecran 15"  | 10           | fiable       | Sherbrooke |
+| ...     |                     |           |            |              |              |            |
+
+- la clé est deux attributs : noFourn + noArticle.
+
+Dépendences fonctionnelles
+- DF1 : noFourn -> {nomFourn, etatFourn, lieuFourn}
+- DF2 : noArticle -> nomArticle
+- DF3 : [noFourn,noArticle] -> {quantArticle, nomFourn, etatFourn, lieuFourn, nomArticle}
+
+anomalies : 
+- replication : chaque fois qu'on veut ajouter fournisseur-article, il faut aussi rajouter leurs noms. (chaise)
+- insertion : pas possible de rajouter article sans fournisseur; pas possible de rajouter un fournisseur sans article.
+- mise à jour : par exemple lieu ou article doivent être modifiés dans plusieurs lignes.
+
+Rappels :
+- 1FN : chaque attribut est atomique.
+- 2FN : 1FN + chaque non-clé est en dépendence fonctionnelle de la clé.
+- 3FN : 2FN + il n'y a pas de dépendences fonctionnelles entres les non-clés.
+
+Revision 2FN
+- R1 {noFourn(clé), nomFourn, lieuFourn, etatFourn} 
+- R2 {noArticle(clé), nomArticle}
+- R3 {noFourn(clé), noArticle(clé), quantArticle}
+
+Plus complexe, 3FN : 
+- plusieurs fournisseurs du même lieu ?
+- attributs pour les lieux ? 
+- anomalie insertion : pas possible de rajouters des informations pour les lieux sans fournisseur.
+- R4 {noFourn(clé), nomFourn, noLieu}
+- R5 {noLieu(clé), nomLieu}
 
 ## semaine 7, 8-9 oct 2024
 
-- 8 oct : date limite TP1
-- labo 9 oct : correction TP1
+- 8 oct : date limite labo
+- TP1 9 oct : correction TP1
 
 ## semaine 8, 15-16 oct 2024
 
