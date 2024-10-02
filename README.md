@@ -90,6 +90,7 @@ Diapos de Christina Khnaisser et Luc Lavoie
 - [Traduction EA-UML](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02b-Modelisation-EA-trad-UML_PRE.pdf)
 - [Normalisation](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MLR_01a-Normalisation-int_PRE.pdf)
 - labo : mise à jour des equipes pour les TPs, modèle logique.
+- [énoncé TP1](https://docs.google.com/document/d/18cjiE8545ULUklCw3kam9uZUE-Xow47iEzSxaRLYEiI/edit?usp=sharing)
 
 ## semaine 6, 1-2 oct 2024
 
