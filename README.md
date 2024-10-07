@@ -147,7 +147,10 @@ Plus complexe, 3FN :
 
 ## semaine 8, 15-16 oct 2024
 
-- examen intra, 15 oct, 8:30-11:20
+- examen intra, 15 oct, 8:30-10:20, 
+- D3-2040: Groupe 02 de Ayad à Fahmeh
+- D3-2041: groupe 02 de Gagnon-Simard à Veillette-Bouchard
+
 
 ## semaine 9
 
