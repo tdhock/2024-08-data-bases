@@ -172,6 +172,8 @@ Rappel : 3FN si chaque non-clé dépend du clé en entier, et rien d'autre.
 
 ### Exemple de 4FN
 
+d'après  https://www.bkent.net/Doc/simple5.htm
+
 4FN => différents tableaux pour différentes informations.
 
 Un seul tableau [Employé, compétence, langue] n'est pas en 4FN si
@@ -185,6 +187,8 @@ stocker quels employés avec certains compétences avec certains
 langues.
 
 ### Exemple de 5FN
+
+d'après https://en.wikipedia.org/wiki/Fifth_normal_form
 
 Quels produits, de quelles marques, sont offerts par quels vendeurs ?
 
