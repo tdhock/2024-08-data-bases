@@ -142,15 +142,15 @@ Plus complexe, 3FN :
 
 ## semaine 7, 8-9 oct 2024
 
-- 8 oct : date limite labo
+- 8 oct : date limite TP1
 - TP1 9 oct : correction TP1
 
-### Exemple de 2NF
+### Exemple de 2FN
 
-2NF est violé quand un non-clé dépend d'un sous-clé (seulement
+2FN est violé quand un non-clé dépend d'un sous-clé (seulement
 pertinent quand clé est composée de plusieurs attributs). Exemple :
 [pièce(clé), noEntrepôt(clé), quantité, addressEntrepôt] est
-problèmatique car l'address dépend de numéro de l'entrepôt.
+problèmatique car l'addresse dépend de numéro de l'entrepôt.
 
 * répétition de l'addresse : anomalie de mise à jour, suppression.
 * possible d'avoir deux addresses pour le même entrepôt.
@@ -158,9 +158,9 @@ problèmatique car l'address dépend de numéro de l'entrepôt.
 
 Solution ?
 
-### Exemple de 3NF
+### Exemple de 3FN
 
-3NF est violé quand un non-clé dépend d'un autre non-clé. Exemple :
+3FN est violé quand un non-clé dépend d'un autre non-clé. Exemple :
 [employé(clé), département, lieu] est problèmatique car lieu dépend du
 département (informatique est en D4).
 
@@ -168,13 +168,13 @@ département (informatique est en D4).
 
 Solution?
 
-Rappel : 3NF si chaque non-clé dépend du clé en entier, et rien d'autre.
+Rappel : 3FN si chaque non-clé dépend du clé en entier, et rien d'autre.
 
-### Exemple de 4NF
+### Exemple de 4FN
 
-4NF => différents tableaux pour différentes informations.
+4FN => différents tableaux pour différentes informations.
 
-Un seul tableau [Employé, compétence, langue] n'est pas en 4NF si
+Un seul tableau [Employé, compétence, langue] n'est pas en 4FN si
 compétences et langues sont indépendents. Anomalies quand un employé a
 une langue mais pas de compétence, etc.
 
@@ -184,29 +184,29 @@ Mais c'est tout à fait normalisé si on fait l'hypothèse qu'on veut
 stocker quels employés avec certains compétences avec certains
 langues.
 
-### Exemple de 5NF
+### Exemple de 5FN
 
 Quels produits, de quelles marques, sont offerts par quels vendeurs ?
 
-| Vendeur        | Marque  | Produit      |
-|----------------|---------|--------------|
-| Jack Schneider | Acme    | aspirateur   |
-| Jack Schneider | Acme    | boîte à pain |
-| Mary Jones     | Robusto | couteau      |
-| Mary Jones     | Robusto | aspirateur   |
-| Mary Jones     | Robusto | boîte à pain |
-| Mary Jones     | Robusto | support      |
-| Louis Ferguson | Robusto | aspirateur   |
-| Louis Ferguson | Robusto | téléscope    |
-| Louis Ferguson | Acme    | aspirateur   |
-| Louis Ferguson | Acme    | lampe        |
-| Louis Ferguson | Nimbus  | support      |
+| Vendeur        | Produit      | Marque  |
+|----------------|--------------|---------|
+| Jack Schneider | aspirateur   | Acme    |
+| Jack Schneider | boîte à pain | Acme    |
+| Mary Jones     | couteau      | Robusto |
+| Mary Jones     | aspirateur   | Robusto |
+| Mary Jones     | boîte à pain | Robusto |
+| Mary Jones     | support      | Robusto |
+| Louis Ferguson | aspirateur   | Robusto |
+| Louis Ferguson | téléscope    | Robusto |
+| Louis Ferguson | aspirateur   | Acme    |
+| Louis Ferguson | lampe        | Acme    |
+| Louis Ferguson | support      | Nimbus  |
 
 * contraintes ? Est-ce que un vendeur est obligé d'offrir un produit
-  ou non ? Cas 1 :Tous les produits de la marque ? Cas 2 : seulement
+  ou non ? Cas 1 : Tous les produits de la marque ? Cas 2 : seulement
   les produits choisis, de certaines marques ?
-* 5NF s'il y a pas de contraintes.
-* pas en 5NF s'il y a des contraintes, et on peut stocké l'information
+* 5FN s'il y a pas de contraintes.
+* pas en 5FN s'il y a des contraintes, et on peut stocké l'information
   à partir de plusieurs tableaux plus petits.
 
 ## semaine 8, 15-16 oct 2024
