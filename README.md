@@ -145,12 +145,75 @@ Plus complexe, 3FN :
 - 8 oct : date limite labo
 - TP1 9 oct : correction TP1
 
+### Exemple de 2NF
+
+2NF est violé quand un non-clé dépend d'un sous-clé (seulement
+pertinent quand clé est composée de plusieurs attributs). Exemple :
+[pièce(clé), noEntrepôt(clé), quantité, addressEntrepôt] est
+problèmatique car l'address dépend de numéro de l'entrepôt.
+
+* répétition de l'addresse : anomalie de mise à jour, suppression.
+* possible d'avoir deux addresses pour le même entrepôt.
+* peut perdre l'addresse.
+
+Solution ?
+
+### Exemple de 3NF
+
+3NF est violé quand un non-clé dépend d'un autre non-clé. Exemple :
+[employé(clé), département, lieu] est problèmatique car lieu dépend du
+département (informatique est en D4).
+
+* répétition de lieu.
+
+Solution?
+
+Rappel : 3NF si chaque non-clé dépend du clé en entier, et rien d'autre.
+
+### Exemple de 4NF
+
+4NF => différents tableaux pour différentes informations.
+
+Un seul tableau [Employé, compétence, langue] n'est pas en 4NF si
+compétences et langues sont indépendents. Anomalies quand un employé a
+une langue mais pas de compétence, etc.
+
+Comment normaliser ?
+
+Mais c'est tout à fait normalisé si on fait l'hypothèse qu'on veut
+stocker quels employés avec certains compétences avec certains
+langues.
+
+### Exemple de 5NF
+
+Quels produits, de quelles marques, sont offerts par quels vendeurs ?
+
+| Vendeur        | Marque  | Produit      |
+|----------------|---------|--------------|
+| Jack Schneider | Acme    | aspirateur   |
+| Jack Schneider | Acme    | boîte à pain |
+| Mary Jones     | Robusto | couteau      |
+| Mary Jones     | Robusto | aspirateur   |
+| Mary Jones     | Robusto | boîte à pain |
+| Mary Jones     | Robusto | support      |
+| Louis Ferguson | Robusto | aspirateur   |
+| Louis Ferguson | Robusto | téléscope    |
+| Louis Ferguson | Acme    | aspirateur   |
+| Louis Ferguson | Acme    | lampe        |
+| Louis Ferguson | Nimbus  | support      |
+
+* contraintes ? Est-ce que un vendeur est obligé d'offrir un produit
+  ou non ? Cas 1 :Tous les produits de la marque ? Cas 2 : seulement
+  les produits choisis, de certaines marques ?
+* 5NF s'il y a pas de contraintes.
+* pas en 5NF s'il y a des contraintes, et on peut stocké l'information
+  à partir de plusieurs tableaux plus petits.
+
 ## semaine 8, 15-16 oct 2024
 
 - examen intra, 15 oct, 8:30-10:20, 
 - D3-2040: Groupe 02 de Ayad à Fahmeh
 - D3-2041: groupe 02 de Gagnon-Simard à Veillette-Bouchard
-
 
 ## semaine 9
 
