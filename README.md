@@ -147,6 +147,8 @@ Plus complexe, 3FN :
 
 ### Exemple de 2FN
 
+d'après  https://www.bkent.net/Doc/simple5.htm
+
 2FN est violé quand un non-clé dépend d'un sous-clé (seulement
 pertinent quand clé est composée de plusieurs attributs). Exemple :
 [pièce(clé), noEntrepôt(clé), quantité, addressEntrepôt] est
@@ -171,8 +173,6 @@ Solution?
 Rappel : 3FN si chaque non-clé dépend du clé en entier, et rien d'autre.
 
 ### Exemple de 4FN
-
-d'après  https://www.bkent.net/Doc/simple5.htm
 
 4FN => différents tableaux pour différentes informations.
 
