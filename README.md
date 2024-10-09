@@ -218,6 +218,19 @@ Quels produits, de quelles marques, sont offerts par quels vendeurs ?
 - examen intra, 15 oct, 8:30-10:20, 
 - D3-2040: Groupe 02 de Ayad à Fahmeh
 - D3-2041: groupe 02 de Gagnon-Simard à Veillette-Bouchard
+- sujets à reviser :
+- généralisation : disjointe, complète, comment traduire en modèle logique / rélationnel.
+- formes normales : quelles différences entre 2FN, 3FN, FNBC ?
+- clé candidate : colonnes qui pourrait servir comme clé
+- clé primaire : clé designé pour utilisation (parmi les candidates possibles)
+- dépendence fonctionnel [A->B], [consulter diapos
+  normalisation](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MLR_01a-Normalisation-int_PRE.pdf).
+  - triviale : B est un sous-ensemble de A.
+  - pleine=irréductible=complète : aucun sous-ensemble propre de A ne détermine B.
+  - "ensemble minimale" ou "ensemble normalisé" ou "couverture
+    minimale" ou "noyau" d'un ensemble de dépendences fonctionnelles :
+    l'ensemble minimal de dépendances normalisées permettant de toutes
+    les dériver.
 
 ## semaine 9
 
