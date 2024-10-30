@@ -54,7 +54,9 @@ Diapos modélisation de Luc Lavoie / Christina Khnaisser :
 - exemple sondage : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/MCD_02e-Modelisation-EA-ex-Sondage_EMC.pdf
 - exemple biere : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/IFT187/IFT187_2022-1_QualiBroue_EPP.pdf
 - exemple armament : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD011-Gaspard-et-Madeleine_NDC.pdf
-- labo : [DrawSQL appli web](https://drawsql.app), pour convertir des dessins en SQL.
+- labo : [DrawSQL appli web](https://drawsql.app), pour convertir des dessins en SQL (liaisons 1:N, N:1, 1:1 font le même code SQL)
+- [pgmodeler](https://github.com/pgmodeler/pgmodeler)
+- [pgadmin4 ERD Tool docs](https://www.pgadmin.org/docs/pgadmin4/development/erd_tool.html)
 - [Mocodo](https://www.mocodo.net/), pour convertir des codes en dessin.
 
 ### bibliothèque du village
