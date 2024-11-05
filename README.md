@@ -14,7 +14,7 @@ Documentation pour PostgreSQL en
 * nous avons 3 salles de cours réservés pour les laboratoires, normalement nous allons utiliser le D4-1023
 https://app.sli.do/event/o6P1wRF38RxpxQh52awSwZ
 
-[Diapos introduction par Nadia Tahiri](week1-bib/IFT187_Tahiri_Cours_Introduction_aux_SGBD.pdf).
+Diapos introduction par Nadia Tahiri.
 
 [bibtex](week1-bib)
 
@@ -237,7 +237,31 @@ Quels produits, de quelles marques, sont offerts par quels vendeurs ?
 ## semaine 9
 
 - relache
+
+## semaine 10
+
+- create/alter table
+- [Un aperçu de SQL par l'exemple](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_00-Apercu_PRE.pdf)
   
+## semaine 11: 5/6 nov
+
+SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
+
+- [Selections simples](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD105-SQL-LMD-02_PRE.pdf)
+- [Tables et clés](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_02c-Tables-cles_PRE.pdf)
+- [Opérateurs élémentaires](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_04-Operateurs-elementaires_PRE.pdf) pour CASE WHEN.
+- [Modification](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD104-SQL-LMD-01_PRE.pdf)
+
+## semaines 12-13
+
+- WITH (portée), INSERT, DELETE, UPDATE. 
+- quantificateurs et opérateurs ensemlistes
+- automatisme et fonctions
+
+## semaine 14
+
+- Clés
+
 ## Post-it exercise: parc de stationnement
 
 on écrit 2 choses :
