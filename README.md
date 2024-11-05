@@ -56,7 +56,11 @@ Diapos modélisation de Luc Lavoie / Christina Khnaisser :
 - exemple armament : https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD011-Gaspard-et-Madeleine_NDC.pdf
 - labo : [DrawSQL appli web](https://drawsql.app), pour convertir des dessins en SQL (liaisons 1:N, N:1, 1:1 font le même code SQL)
 - [pgmodeler](https://github.com/pgmodeler/pgmodeler)
-- [pgadmin4 ERD Tool docs](https://www.pgadmin.org/docs/pgadmin4/development/erd_tool.html)
+- [pgadmin4 ERD Tool
+  docs](https://www.pgadmin.org/docs/pgadmin4/development/erd_tool.html)
+  explique que :
+  - on peut génerer un graphique à partir d'un base de données, schéma, ou table. Object Explorer -> cliquer droite/control menu sur DB, Schema, ou Table -> ERD for Database, Schema, or Table. 
+  - on peut également faire une base de données / code SQL à partir d'un graphique, en cliquant sur Generate SQL. Exemple : [livre_pour_auteur_many.pgerd](livre_pour_auteur_many.pgerd)
 - [Mocodo](https://www.mocodo.net/), pour convertir des codes en dessin.
 
 ### bibliothèque du village
@@ -251,6 +255,7 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
 - [Tables et clés](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_02c-Tables-cles_PRE.pdf)
 - [Opérateurs élémentaires](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_04-Operateurs-elementaires_PRE.pdf) pour CASE WHEN.
 - [Modification](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD104-SQL-LMD-01_PRE.pdf)
+- Demo : [natural-left-join.sql](natural-left-join.sql)
 
 ## semaines 12-13
 
