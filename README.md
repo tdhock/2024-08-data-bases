@@ -252,20 +252,20 @@ Quels produits, de quelles marques, sont offerts par quels vendeurs ?
 SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
 
 - [Selections simples](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD105-SQL-LMD-02_PRE.pdf)
-- [Tables et clés](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_02c-Tables-cles_PRE.pdf)
-- [Opérateurs élémentaires](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_04-Operateurs-elementaires_PRE.pdf) pour CASE WHEN.
-- [Modification](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD104-SQL-LMD-01_PRE.pdf)
+- quantificateurs et opérateurs ensemblistes
 - Demo : [natural-left-join.sql](natural-left-join.sql)
 
 ## semaines 12-13
 
+- [Tables et clés](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_02c-Tables-cles_PRE.pdf)
+- [Opérateurs élémentaires](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_04-Operateurs-elementaires_PRE.pdf) pour CASE WHEN.
+- [Modification](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD104-SQL-LMD-01_PRE.pdf)
 - WITH (portée), INSERT, DELETE, UPDATE. 
-- quantificateurs et opérateurs ensemlistes
-- automatisme et fonctions
 
 ## semaine 14
 
-- Clés
+- [Procédures et fonctions](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD110-SQL-LDD-procedures-et-fonctions_PRE.pdf)
+- [Invariants et automatismes](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD111-SQL-LDD-invariants-et-automatismes_PRE.pdf)
 
 ## Post-it exercise: parc de stationnement
 
