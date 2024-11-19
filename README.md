@@ -261,6 +261,9 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
 - [Opérateurs élémentaires](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/SQL_04-Operateurs-elementaires_PRE.pdf) pour CASE WHEN.
 - [Modification](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD104-SQL-LMD-01_PRE.pdf)
 - WITH (portée), INSERT, DELETE, UPDATE. 
+- [Canada organisations interdit](https://science.gc.ca/site/science/fr/protegez-votre-recherche/lignes-directrices-outils-pour-mise-oeuvre-securite-recherche/recherche-technologies-sensibles-affiliations-preoccupantes/organisations-recherche-nommees) avec [code R](https://tdhock.github.io/blog/2024/collaborations-not-allowed/)
+- [regular-expressions.info](https://www.regular-expressions.info/refadv.html)
+- [site web pour tester les expressions regulieres](https://regex101.com/)
 
 ## semaine 14
 
