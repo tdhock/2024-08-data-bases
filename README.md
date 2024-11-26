@@ -298,6 +298,27 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
   particulier, une opération qui ne modifie aucune ligne résulte
   toujours en l'exécution des triggers FOR EACH STATEMENT
   applicables).
+- En outre, la définition d'un trigger peut spécifier une condition
+  WHEN qui sera testée pour vérifier si le trigger doit réellement
+  être déclenché. Dans les triggers au niveau ligne, la condition WHEN
+  peut examiner l'ancienne et/ou la nouvelle valeurs des colonnes de
+  la ligne. Les triggers au niveau instruction peuvent aussi avoir des
+  conditions WHEN, bien que la fonctionnalité n'est pas aussi utile
+  pour elles car la condition ne peut pas faire référence aux valeurs
+  de la table.
+- condition : Une expression booléenne qui détermine si la fonction
+  trigger sera réellement exécutée. Si WHEN est indiqué, la fonction
+  sera seulement appelée si la condition renvoie true. Pour les
+  triggers FOR EACH ROW, la condition WHEN peut faire référence aux
+  valeurs des colonnes des ancienne et nouvelle lignes en utilisant la
+  notation OLD.nom_colonne ou NEW.nom_colonne, respectivement. Bien
+  sûr, le triggers sur INSERT ne peuvent pas faire référence à OLD et
+  ceux sur DELETE ne peuvent pas faire référence à NEW.
+- Le standard autorise l'utilisation de tables de transition avec les
+  triggers UPDATE spécifique à une colonne mais dans ce cas,
+  l'ensemble des lignes qui doit être visible dans les tables de
+  transition dépend de la liste de colonnes du trigger. Ceci n'est pas
+  encore implémenté dans PostgreSQL.
 
 ## semaine 15
 
