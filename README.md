@@ -276,7 +276,7 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
 
 ## semaine 16
 
-- examen final le 17 déc, 13h30-16h30, D3-2037, 2039, 2040.
+- examen final le mardi 17 déc, 13h30-16h30, D3-2037, 2039, 2040.
 
 ## Post-it exercise: parc de stationnement
 
