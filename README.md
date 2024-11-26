@@ -270,6 +270,14 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
 - [Procédures et fonctions](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD110-SQL-LDD-procedures-et-fonctions_PRE.pdf)
 - [Invariants et automatismes](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD111-SQL-LDD-invariants-et-automatismes_PRE.pdf)
 
+## semaine 15
+
+- Révision pour l'examen final.
+
+## semaine 16
+
+- examen final le 17 déc, 13h30-16h30, D3-2037, 2039, 2040.
+
 ## Post-it exercise: parc de stationnement
 
 on écrit 2 choses :
