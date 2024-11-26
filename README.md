@@ -4,9 +4,10 @@ Les diapos du cours sont disponible sur Teams / Slides are available on teams.
 
 TPs sont disponible sur Moodle / Homeworks available on moodle.
 
-Documentation pour PostgreSQL en
-[Français](https://docs.postgresql.fr/) / PostgreSQL docs in
-[English](https://www.postgresql.org/docs/)
+PostgreSQL docs:
+
+| [Français](https://docs.postgresql.fr/)     | [commandes](https://docs.postgresql.fr/17/sql-commands.html)          |
+| [English](https://www.postgresql.org/docs/) | [commands](https://www.postgresql.org/docs/current/sql-commands.html) |
 
 ## Semaine / Week 1
 
