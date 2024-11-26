@@ -270,6 +270,34 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
 
 - [Procédures et fonctions](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD110-SQL-LDD-procedures-et-fonctions_PRE.pdf)
 - [Invariants et automatismes](https://llavoie.espaceweb.usherbrooke.ca/llavoie/enseignement/Modules/BD111-SQL-LDD-invariants-et-automatismes_PRE.pdf)
+- PostgreSQL docs : [Aperçu du comportement des
+  triggers](https://docs.postgresql.fr/17/trigger-definition.html) :
+  Les triggers BEFORE en mode ligne sont typiquement utilisés pour
+  vérifier ou modifier les données qui seront insérées ou mises à
+  jour. Par exemple, un trigger BEFORE pourrait être utilisé pour
+  insérer l'heure actuelle dans une colonne de type timestamp ou pour
+  vérifier que deux éléments d'une ligne sont cohérents. Les triggers
+  AFTER en mode ligne sont pour la plupart utilisés pour propager des
+  mises à jour vers d'autres tables ou pour réaliser des tests de
+  cohérence avec d'autres tables. La raison de cette division du
+  travail est qu'un trigger AFTER peut être certain qu'il voit la
+  valeur finale de la ligne alors qu'un trigger BEFORE ne l'est pas ;
+  il pourrait exister d'autres triggers BEFORE qui seront exécutés
+  après lui. Si vous n'avez aucune raison spéciale pour le moment du
+  déclenchement, le cas BEFORE est plus efficace car l'information sur
+  l'opération n'a pas besoin d'être sauvegardée jusqu'à la fin du
+  traitement.
+- [CREATE TRIGGER
+  docs](https://docs.postgresql.fr/17/sql-createtrigger.html) : Un
+  trigger marqué FOR EACH ROW est appelé pour chaque ligne que
+  l'opération modifie. Par exemple, un DELETE affectant dix lignes
+  entraîne dix appels distincts de tout trigger ON DELETE sur la
+  relation cible, une fois par ligne supprimée. Au contraire, un
+  trigger marqué FOR EACH STATEMENT ne s'exécute qu'une fois pour une
+  opération donnée, quelque soit le nombre de lignes modifiées (en
+  particulier, une opération qui ne modifie aucune ligne résulte
+  toujours en l'exécution des triggers FOR EACH STATEMENT
+  applicables).
 
 ## semaine 15
 
