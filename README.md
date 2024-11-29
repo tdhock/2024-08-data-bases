@@ -322,7 +322,39 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
 
 ## semaine 15
 
-- Révision pour l'examen final.
+- pas de labo le mercredi 4 déc.
+- Révision pour l'examen final. SVP ecrire solutions pour les
+  questions suivantes. Si vous présentez une solution en classe le 3
+  déc, vous aurez un supplement de 5 points sur 100, vers votre examen
+  final.
+- Pour chaque fonctionnalité pour le système de prise de rendez-vous,
+  dessiner un modèle conceptuel et logique, et expliquer brèvement (1
+  ou 2 phrases) comment vos modèles puisse fournir la fonctionallité
+  demandé.
+  - chaque rendez-vous prend environ 1 heure, pour un client, avec un agent
+  - il y a 4 différentes sortes de visa : touriste, transit, étude, autre
+  - il y a 4 bureaux : Toronto, Vancouver, Montréal, Ottawa.
+  - différents agents ont différents compétences : il y en a qui
+    s'occupent uniquement des visas de type touriste, d'autres qui
+    peuvent gérer n'importe quelle sorte de visa.
+- quel est le code SQL qu'un client puisse utiliser pour visionner les
+  rendez-vous disponibles ?
+- quel est le code SQL pour faire la mise à jour, une fois que le
+    client a choisi un rendez-vous ?
+- quel est le code SQL utilisé dans chaque bureau, pour créer une
+    feuille avec les rendez-vous anticipés dans la journée ?
+- comment vous pourriez utiliser un TRIGGER pour que l'agent
+  affecté au rendez-vous a toujours les compétences qu'il faut ?
+- comment normaliser dans les exemples ici ? https://github.com/tdhock/2024-08-data-bases/?tab=readme-ov-file#semaine-7-8-9-oct-2024
+- Pour l'ensemble de dépendences fonctionnelles ci-dessous,
+  dessiner-les dans un tableau avec une ligne pour chaque dépendence,
+  et une colonne pour chaque colonne / variable.
+  - noPasseport -> dateDebut, dateFin, noAssuranceSocial
+  - noAssuranceSocial -> nom, dateNaissance
+  - noAssuranceSocial, dateDebut -> noPasseport
+  - noRapport -> revenu, impot, noAssuranceSocial, annee
+- est-ce qu'il y a des dépendences triviales ? complètes ?
+- pour normaliser ces dépendences, vous faites combien de tables ?
 
 ## semaine 16
 
