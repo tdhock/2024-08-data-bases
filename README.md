@@ -341,6 +341,7 @@ SELECT, FROM, WHERE, JOIN, GROUP, HAVING, ORDER
   rendez-vous disponibles ?
 - quel est le code SQL pour faire la mise à jour, une fois que le
     client a choisi un rendez-vous ?
+- quel est le code SQL pour annuller un rendez-vous ?
 - quel est le code SQL utilisé dans chaque bureau, pour créer une
     feuille avec les rendez-vous anticipés dans la journée ?
 - comment vous pourriez utiliser un TRIGGER pour que l'agent
